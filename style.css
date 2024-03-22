@@ -2,6 +2,7 @@ header{
     display: flex;
     justify-content: space-between; /*um para cada lado, verifica usando a inspeção*/
     text-align: center;
+    font-family: "roboto", sans-serif;
     
     
 }
@@ -20,7 +21,7 @@ header{
 body{
 
 background-color: bisque;
-
+font-family: "roboto", sans-serif;
 
 }
 
@@ -28,6 +29,7 @@ footer{
     display: flex;
     justify-content: space-between; /*um para cada lado, verifica usando a inspeção*/
     text-align: center;
+    font-family: "roboto", sans-serif;
 
 }
 
