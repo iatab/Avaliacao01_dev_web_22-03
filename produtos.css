@@ -1,0 +1,31 @@
+body {
+    background-color:bisque;
+    text-align: center;
+    display: flex;
+}
+
+table {
+    text-align: center;
+    padding: 100px;
+    margin: auto;
+}
+
+div {
+    display: flex;
+    flex-direction: column;
+    padding: 50px;
+    width: 50%;
+}
+
+main {
+    display: flex;
+}
+
+p {
+    display: flex;
+}
+
+h2 {
+    display: flex;
+    width: 100%;
+}
