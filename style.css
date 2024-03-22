@@ -1,0 +1,34 @@
+header{
+    display: flex;
+    justify-content: space-between; /*um para cada lado, verifica usando a inspeção*/
+    text-align: center;
+    
+    
+}
+
+.header{
+    display: flex; /* auxilia na criação da margem entre os itens */
+    gap: 48px; /*só existe quando uso o display fles*/
+    list-style: none; /* não mostra os pontos da lista*/
+    margin: 0 ;
+    padding: 0;
+
+
+
+}
+
+body{
+
+
+
+
+}
+
+footer{
+    display: flex;
+    justify-content: space-between; /*um para cada lado, verifica usando a inspeção*/
+    text-align: center;
+
+
+
+}
