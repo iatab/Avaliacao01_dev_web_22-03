@@ -6,7 +6,7 @@ header{
     
 }
 
-.header{
+#header{
     display: flex; /* auxilia na criação da margem entre os itens */
     gap: 48px; /*só existe quando uso o display fles*/
     list-style: none; /* não mostra os pontos da lista*/
@@ -19,7 +19,7 @@ header{
 
 body{
 
-
+background-color: bisque;
 
 
 }
@@ -28,6 +28,36 @@ footer{
     display: flex;
     justify-content: space-between; /*um para cada lado, verifica usando a inspeção*/
     text-align: center;
+
+}
+
+#foo{
+    display: flex; /* auxilia na criação da margem entre os itens */
+    gap: 48px; /*só existe quando uso o display fles*/
+    list-style: none; /* não mostra os pontos da lista*/
+    margin: 0 ;
+    padding: 0;
+
+
+
+}
+
+#alunos{
+
+    display: flex; /* auxilia na criação da margem entre os itens */
+    gap: 48px; /*só existe quando uso o display fles*/
+    list-style: none; /* não mostra os pontos da lista*/
+    margin: 0 ;
+    padding: 0;
+    
+
+    
+}
+
+a{
+    color: #1f1534;
+    text-decoration: none;
+
 
 
 
