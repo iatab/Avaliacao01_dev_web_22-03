@@ -1,7 +1,8 @@
 body {
     background-color:bisque;
-    text-align: center;
-    display: flex;
+    display: block;
+    font-family: "roboto", sans-serif;
+    margin: 0px;
 }
 
 table {
@@ -14,12 +15,17 @@ div {
     display: flex;
     flex-direction: column;
     padding: 50px;
-    width: 50%;
+    text-align: center;
 }
 
 main {
-    display: flex;
+    display: block;
 }
+
+#divmaior{
+    flex-direction: row;
+}
+
 
 p {
     display: flex;
@@ -28,4 +34,70 @@ p {
 h2 {
     display: flex;
     width: 100%;
+    justify-content: center
+}
+
+img {
+    height: 100%;
+}
+
+header{
+    display: flex;
+    justify-content: space-between; /*um para cada lado, verifica usando a inspeção*/
+    text-align: center;
+    font-family: "roboto", sans-serif;
+    
+    
+}
+
+#header{
+    display: flex; /* auxilia na criação da margem entre os itens */
+    gap: 48px; /*só existe quando uso o display fles*/
+    list-style: none; /* não mostra os pontos da lista*/
+    margin: 0 ;
+    padding: 0;
+
+
+
+}
+
+
+
+footer{
+    display: flex;
+    justify-content: space-between; /*um para cada lado, verifica usando a inspeção*/
+    text-align: center;
+    font-family: "roboto", sans-serif;
+
+}
+
+#foo{
+    display: flex; /* auxilia na criação da margem entre os itens */
+    gap: 48px; /*só existe quando uso o display fles*/
+    list-style: none; /* não mostra os pontos da lista*/
+    margin: 0 ;
+    padding: 0;
+
+
+    margin: 0 ;
+    padding: 0;
+    
+
+    
+}
+
+a{
+    color: #1f1534;
+    text-decoration: none;
+
+
+
+
+}
+
+#alunos{
+
+    display: flex; /* auxilia na criação da margem entre os itens */
+    gap: 48px; /*só existe quando uso o display fles*/
+    list-style: none; /* não mostra os pontos da lista*/
 }
