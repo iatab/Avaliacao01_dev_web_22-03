@@ -22,7 +22,9 @@ body{
 
 background-color: bisque;
 font-family: "roboto", sans-serif;
-
+text-align: center;
+display: block;
+margin: 8px;
 }
 
 footer{
@@ -41,6 +43,14 @@ footer{
     padding: 0;
 
 
+
+}
+
+#alunos{
+
+    display: flex; /* auxilia na criação da margem entre os itens */
+    gap: 48px; /*só existe quando uso o display fles*/
+    list-style: none; /* não mostra os pontos da lista*/
     margin: 0 ;
     padding: 0;
     
@@ -59,19 +69,22 @@ a{
 
 width: 30%;
 height: 30%;
-
+display: flex;
+justify-content: center;
 
 
 
 }
-<<<<<<< HEAD
-=======
-
-
-#alunos{
-
-    display: flex; /* auxilia na criação da margem entre os itens */
-    gap: 48px; /*só existe quando uso o display fles*/
-    list-style: none; /* não mostra os pontos da lista*/
-}
->>>>>>> dd77ccfc204be064a8a816337fc142fad42aec3e
+div{
+  
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+    }
+    img{
+        border-radius: 30px;
+        width: 300px;
+        height: auto;
+        box-shadow: 5px 5px 20px rgba(0, 0, 0, 0.5);
+        }
