@@ -22,7 +22,9 @@ body{
 
 background-color: bisque;
 font-family: "roboto", sans-serif;
-
+text-align: center;
+display: block;
+margin: 8px;
 }
 
 footer{
@@ -73,3 +75,16 @@ justify-content: center;
 
 
 }
+div{
+  
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+    }
+    img{
+        border-radius: 30px;
+        width: 300px;
+        height: auto;
+        box-shadow: 5px 5px 20px rgba(0, 0, 0, 0.5);
+        }
